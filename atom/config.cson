@@ -1,0 +1,29 @@
+"*":
+  "autocomplete-python":
+    useSnippets: "required"
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "atom-dark-syntax"
+    ]
+  editor:
+    fontSize: 19
+    invisibles: {}
+    tabLength: 4
+  "exception-reporting":
+    userId: "dbd7465c-44a0-4cf5-9e0f-7a7f2f262445"
+  "linter-ui-default": {}
+".basic.html.text":
+  editor:
+    tabLength: 2
+  "exception-reporting":
+    userId: ""
+  "linter-ui-default":
+    showPanel: true
+  "platformio-ide-terminal":
+    core:
+      mapTerminalsTo: "Folder"
+      workingDirectory: "Active File"
+  welcome:
+    showOnStartup: false

@@ -1,0 +1,50 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+'.source.python':
+  'python skel':
+    'prefix': 'py'
+    'body': """
+    #!/usr/bin/env python
+    # -*- coding: utf-8 -*-
+
+
+    def main(args):
+        return 0
+
+
+    if __name__ == '__main__':
+        import sys
+        sys.exit(main(sys.argv))
+    """
+'.source.cpp':
+  'cpp skel':
+    'prefix': 'cpp'
+    'body': """
+    #include <iostream>
+    #include <cstdlib>
+
+    using namespace std;
+
+    int main(int argc, char **argv) {
+        return 0;
+    }
+    """

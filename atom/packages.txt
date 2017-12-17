@@ -1,0 +1,16 @@
+atom-bootstrap3
+atom-html-preview
+autocomplete-python
+busy-signal
+git-plus
+intentions
+linter
+linter-csslint
+linter-flake8
+linter-gcc
+linter-htmlhint
+linter-jshint
+linter-ui-default
+packages.txt
+platformio-ide-terminal
+script
