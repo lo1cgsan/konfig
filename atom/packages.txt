@@ -1,7 +1,8 @@
-atom-bootstrap3
+atom-bootstrap4
 atom-html-preview
 autocomplete-python
 busy-signal
+color-picker
 git-plus
 intentions
 linter

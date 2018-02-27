@@ -8,12 +8,22 @@
       "atom-dark-syntax"
     ]
   editor:
-    fontSize: 19
+    fontSize: 18
     invisibles: {}
     tabLength: 4
+    tabType: "soft"
   "exception-reporting":
-    userId: "dbd7465c-44a0-4cf5-9e0f-7a7f2f262445"
-  "linter-ui-default": {}
+    userId: ""
+  "linter-ui-default":
+    showPanel: true
+  "markdown-preview": {}
+  "spell-check":
+    locales: [
+      "pl-PL"
+      "en-US"
+    ]
+  welcome:
+    showOnStartup: false
 ".basic.html.text":
   editor:
     tabLength: 2
