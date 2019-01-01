@@ -26,9 +26,11 @@
 
 		{ "trigger": "source", "contents": "::\n\n    ${1:text}" },
         { "trigger": "code", "contents": ".. code-block:: ${1:language}\n\n    ${2:source}" },
+        { "trigger": "cd", "contents": ":code:`${1:polecenie}`$0"},
 
         { "trigger": "img", "contents": ".. image:: ${1:path}\n\n$0" },
         { "trigger": "fig", "contents": ".. figure:: ${1:path}\n\n   ${2:caption}\n\n$0" },
+        { "trigger": "ofig", "contents": ".. only:: html\n\n   .. figure:: ${1:path}\n\n      ${2:caption}\n\n.. only:: latex\n\n   .. figure:: ${1:path}\n      :width: 50%\n\n      ${2:caption}\n\n$0" },
 
 		{ "trigger": "table", "contents": "${1/./=/g}\n${1:heading}\n${1/./=/g}\n${2:row}\n${3:row}\n${4:row}\n${1/./=/g}" },
 
@@ -36,10 +38,13 @@
 		{ "trigger": "linki", "contents": "`${1:link_variable_name} <${2:http://}>`_ $0"},
         { "trigger": "file", "contents": ":file:`${1:plik}`$0"},
         { "trigger": "kbd", "contents": ":kbd:`${1:CTRL+}`$0"},
+        { "trigger": "term", "contents": ":term:`${1:termin}`$0"},
         { "trigger": "ref", "contents": ":ref:`${1:tekst} <${2:label}>`$0"},
         { "trigger": "fn, cite", "contents": "[${2:#}]_ $0\n\n.. [${2}] ${1:footnote}" },
 
         { "trigger": "quote", "contents": ".. epigraph::\n\n   ${1:quote}\n\n   -- ${2:author}\n\n$0" },
+
+        { "trigger": "td", "contents": ".. todo::\n   ${1:opis}$0" },
 
         // admonitions
         { "trigger": "attention", "contents": ".. attention:: ${1:note}\n\n$0" },

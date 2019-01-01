@@ -6,7 +6,7 @@
   "variants":
   [
     {
-        "name": "Run",
+        "name": "Uruchom",
         "shell": true,
         "cmd": ["gnome-terminal -e 'sh -c \"${file_path}/${file_base_name}.exe;echo;echo;  echo Press ENTER to continue; read line;exit; exec bash\"'"]
     }

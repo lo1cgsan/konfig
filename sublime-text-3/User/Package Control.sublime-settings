@@ -10,11 +10,14 @@
 		"ColorPicker",
 		"Emmet",
 		"GitSavvy",
+		"HTMLBeautify",
 		"MarkdownLivePreview",
 		"Package Control",
 		"Restructured Text (RST) Snippets",
 		"RestructuredText Improved",
+		"SublimeLinter-html-tidy",
 		"SublimeREPL",
-		"Terminal"
+		"Terminal",
+		"TerminalView"
 	]
 }

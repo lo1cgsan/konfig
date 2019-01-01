@@ -1,7 +1,13 @@
 "*":
+  "atom-beautify":
+    html:
+      indent_size: 2
   "autocomplete-python":
     useSnippets: "required"
   core:
+    disabledPackages: [
+      "spell-check"
+    ]
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
@@ -13,11 +19,14 @@
     tabLength: 4
     tabType: "soft"
   "exception-reporting":
-    userId: ""
+    userId: "3dcbd2ba-9271-4e9e-935e-6beb4d7c9bb1"
   "linter-ui-default":
     showPanel: true
   "markdown-preview": {}
   "spell-check":
+    localePaths: [
+      "/usr/share/hunspell/"
+    ]
     locales: [
       "pl-PL"
       "en-US"
